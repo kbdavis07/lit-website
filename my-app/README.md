@@ -28,3 +28,20 @@ npm init @open-wc
 For most of the tools, the configuration is in the `package.json` to reduce the amount of files in your project.
 
 If you customize the configuration a lot, you can consider moving them to individual files.
+
+## Update to latest version of Node and NPM on Windows
+
+1. Download and install nvm for Windows: https://github.com/coreybutler/nvm-windows/releases
+2. Install the latest version of Node.js using nvm: Open a new Command Prompt or PowerShell window and run the following commands:
+
+   ```sh
+   nvm install latest
+   nvm use latest
+    ```
+
+3. Verify the installation:
+
+```sh
+node -v
+npm -v
+```
